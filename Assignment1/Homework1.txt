@@ -1,0 +1,50 @@
+1. (2.5 points) Create an algorithm to determine the pure Nash Equilibria (pure NE) of a normalform
+game with 2 players (any possible finite number of strategies for each player). The
+algorithm should give the right answer to the following questions:
+- Existence (or not) of pure NE in the game;
+- Find all the pure NE in the game;
+The professor should be able to test the algorithm on any finite normal-form game he defines in
+terms of 2 players, strategies and payoffs. Moreover, there should also be the possibility to
+check the algorithm on games with the payoffs chosen by randomization with the help of the
+computer.
+Inputs:
+- number of strategies for first player – keyboard;
+- number of strategies for second player – keyboard;
+- a choice to introduce payoffs for both players: manually OR automatically by randomization
+– keyboard YES/NO;
+- if manually above, then payoffs for both players – keyboard.
+Outputs: all pure NE of the defined game.
+Please provide an executable (so I can check easily, without depending on the development
+environment), together with a source. In the report for this homework, please provide a
+pseudocode of the main algorithm of this problem and the results of some games for which
+you checked your algorithm. Besides the correctness of the algorithm, in the evaluation will also
+be considered issues related to duration (which are considered to be a reflection of time
+efficiency issues).
+2. (2.5 points) Consider N doors. There is a gift behind one of the doors. You have to choose one
+door in the first step. The door is not opened for you. N-2 doors without the gift are opened.
+There are left two doors: the one you indicated in the first step and another one.
+In second step you are asked to choose between the following two strategies (the door you
+mention in the second step will be finally opened and if it has the gift behind then you are a
+winner):
+Strategy 1: Keep the same door you have chosen in the first place.
+Strategy 2: Change initial choice door with the other one left unopened.
+Write an algorithm in which the computer evaluates in a K times repetition of the situation, what
+is the probability to win by the Strategy 1 and what is the probability to win by the Strategy 2.
+Please provide an executable, together with a source. In the report for this homework, please
+provide results for different N. For a fixed N, try K=10, K=100, K=1000, K=10000 and see how
+the reported probabilities evolve (for the given N).
+3. (2.5 points) What are the pure Nash Equilibria of the following game (if any)?
+Players: everyone in the class;
+Strategy space: any number in the set {1,2,…,100};
+Payoffs: the winner gets…“prestige’’. For more than one winner, the “prestige” is equally divided
+between winners.
+Who wins: the person(s) whose number(s) is (are) closest to 2/3 of the class average.
+Find the pure NE and carefully prove they are indeed equilibria! Explain your reasoning in the
+report for this homework.
+4. (2.5 points)
+a) Consider the following game in strategic form:
+Can you think of a mixed strategy for player 1 that is dominating one of his/her pure
+strategies? (Hint: a mixed strategy for player 1 can be for instance ½ T+ ½ M.)
+Please find all pure NE of this game.
+b) Prove that all the following game are not dominant solvable:
+Explain your reasoning for 5.a) & 5.b) in the report for this homework.
